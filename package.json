@@ -1,0 +1,40 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^5.47.1",
+    "@babylonjs/loaders": "^5.47.1",
+    "@nuxt/content": "^2.4.3",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@pinia/nuxt": "^0.4.7",
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "@typescript-eslint/parser": "^5.56.0",
+    "@vueuse/core": "^9.13.0",
+    "@vueuse/nuxt": "^9.13.0",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.36.0",
+    "flowbite": "^1.6.3",
+    "nuxt": "^3.2.2",
+    "nuxt-socket-io": "^3.0.12",
+    "nuxt3-socket.io": "^0.0.11",
+    "postcss": "^8.4.21",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.16",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "flowbite": "^1.6.4",
+    "pinia": "^2.0.33",
+    "socket.io-client": "^4.6.1",
+    "tailwindcss": "^3.2.7",
+    "vue3-highlightjs": "^1.0.5"
+  }
+}

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('./Feather.css');
+@import url('./Fontawesome-all.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html{
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    -webkit-text-size-adjust: 100% !important;
+    height: 100% !important;
+    line-height: 1.5 !important;
+    -o-tab-size: 4 !important;
+    tab-size: 4 !important;
+    background-color: #fff !important;
+    font-family: 'Inter',ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji !important;
+}
+.clamp-2{
+    overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+}
+.custom-scroll::-webkit-scrollbar{
+    @apply w-[6px] h-[6px];
+}
+.custom-scroll::-webkit-scrollbar-thumb{
+@apply rounded-lg bg-[#5a5e78];
+}

@@ -1,0 +1,8 @@
+{
+    "path": "emc2/avatar/3d/",
+    "name": "male.gltf",
+    "transparency": true,
+    "scaling": { "x": 4, "y": 4, "z": -4 },
+    "lightPosition": { "x": 0.8, "y": -1, "z": -2.5 },
+    "avatarPosition": { "x": 0, "y": -5.2, "z": 0 }
+}
