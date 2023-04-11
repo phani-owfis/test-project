@@ -1,23 +1,12 @@
 <template>
   <div class="h-full w-full flex flex-col relative">
-    <!-- Customization button -->
-    <button
-      class="border border-slate-300 h-10 w-10 rounded-full shadow bg-white cursor-pointer z-[10] absolute right-[40px] bottom-[52px] hover:bg-slate-200"
-      @click="toggleModal(false)"
-    >
-      <PencilSquareIcon
-        class="w-[19px] mx-auto text-slate-600 hover:text-slate-900"
-      />
-    </button>
-    <!-- Avatar Rendering from here -->
-    <CharectorAvatar :character="defaultCharacter" />
-    <!-- Customization modal -->
+    <CharacterAvatar :character="defaultCharacter" />
   </div>
 </template>
 <script setup lang="ts">
 import { PencilSquareIcon } from "@heroicons/vue/24/solid";
 import { Modal } from "flowbite";
-import data from "../data/1.json";
+import data from "../../data/1.json";
 const defaultCharacter = data;
 // Set and Get functions for avatar state.
 

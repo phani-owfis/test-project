@@ -1,5 +1,5 @@
 <template>
-  <NuxtLayout :name="`home-${layout}`">
+  <NuxtLayout name="home-1">
     <template #navbar>
       <HomeNavbar />
     </template>
@@ -37,18 +37,7 @@
       />
     </template>
     <template #stark>
-      <CharectorMain />
+      <CharacterMain />
     </template>
   </NuxtLayout>
 </template>
-<script setup type="ts">
-let router = useRoute().query;
-const layout = router?.layout ? router?.layout  : 1 ;
-
-const opened_modal_name = ref(null);
-const candidate_main_ref=ref();
-function openModal(modal_name) {
-  opened_modal_name.value=modal_name;
-  candidate_main_ref.value.openModal(opened_modal_name,'');
-}
-</script>

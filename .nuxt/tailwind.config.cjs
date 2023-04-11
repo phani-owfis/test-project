@@ -1,13 +1,5 @@
 module.exports = {
   "theme": {
-    "lineClamp": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5",
-      "6": "6"
-    },
     "accentColor": {
       "inherit": "inherit",
       "current": "currentColor",
@@ -2634,10 +2626,20 @@ module.exports = {
     },
     "fontFamily": {
       "sans": [
-        "Inter var, sans-serif",
-        {
-          "fontFeatureSettings": "\"cv03\", \"cv04\", \"cv11\""
-        }
+        "ui-sans-serif",
+        "system-ui",
+        "-apple-system",
+        "BlinkMacSystemFont",
+        "\"Segoe UI\"",
+        "Roboto",
+        "\"Helvetica Neue\"",
+        "Arial",
+        "\"Noto Sans\"",
+        "sans-serif",
+        "\"Apple Color Emoji\"",
+        "\"Segoe UI Emoji\"",
+        "\"Segoe UI Symbol\"",
+        "\"Noto Color Emoji\""
       ],
       "serif": [
         "ui-serif",
@@ -6142,10 +6144,6 @@ module.exports = {
   "content": {
     "relative": false,
     "files": [
-      "./index.html",
-      "./src/**/*.{vue,js,ts,jsx,tsx}",
-      "./node_modules/flowbite/**/*.js",
-      "node_modules/flowbite-vue/**/*.{js,jsx,ts,tsx}",
       "/home/agile/Desktop/work/test-project/components/**/*.{vue,js,ts}",
       "/home/agile/Desktop/work/test-project/layouts/**/*.vue",
       "/home/agile/Desktop/work/test-project/pages/**/*.vue",
@@ -6158,11 +6156,6 @@ module.exports = {
     ],
     "extract": {},
     "transform": {}
-  },
-  "variants": {
-    "lineClamp": [
-      "responsive"
-    ]
   },
   "presets": [],
   "darkMode": "media",
